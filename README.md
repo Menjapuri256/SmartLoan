@@ -2,7 +2,7 @@
 
 A portfolio project demonstrating production-grade .NET 8 architecture for a Loan Origination System (LOS). Built with Clean Architecture, CQRS, MediatR, and Entity Framework Core.
 
-> **Phase 1** — REST API with SQLite. Phase 2 (Microservices) and Phase 3 (RAG / Azure AI) are in progress.
+> REST API with SQLite.
 
 ---
 
@@ -210,14 +210,6 @@ Submitted → UnderReview → Approved / Denied
 - Debt-to-Income ratio (DTI) must be ≤ 43%
 - Loan amount must be > $0
 - Applicant name must be provided
-
----
-
-## Roadmap
-
-- [x] **Phase 1** — Clean Architecture REST API (this repo)
-- [ ] **Phase 2** — Microservices (Azure Service Bus, Docker, API Gateway)
-- [ ] **Phase 3** — RAG pipeline (Semantic Kernel, Azure AI Search, Azure OpenAI)
 
 ---
 
